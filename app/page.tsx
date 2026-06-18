@@ -5,6 +5,8 @@ import { useGlobalContext } from "@/context/globalContext";
 import { ICategory } from "@/types/types";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 const stats = [
   { value: "13", label: "Quiz Categories" },
   { value: "132+", label: "Questions" },

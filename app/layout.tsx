@@ -7,6 +7,8 @@ import { Nunito } from "next/font/google";
 import ContextProvider from "@/providers/ContextProvider";
 import { Toaster } from "react-hot-toast";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Optimum Quiz Hub",
   description: "Test your knowledge of Optimum, RLNC, Web3 networking, and blockchain fundamentals.",

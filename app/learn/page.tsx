@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 function SH({ id, e, t, s }: { id: string; e: string; t: string; s: string }) {
   return (
     <div id={id} className="scroll-mt-28 mb-8">
